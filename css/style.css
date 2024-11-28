@@ -427,8 +427,42 @@ header nav ul li a:hover{
     background-color: #7D0140 !important;
     color:white;
 }
+                                        /*!SERVICIOS*/
+.servicios{
+    background-image: url("../img/restaurante3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height:410px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}   
 
+.Servcarrusel{
+    padding: 15px;
+    text-align:justify;
+    font-size: 20px;
+    color: black;
+    font-family: "Lora", serif;
+    align-items: center;
+}
 
+.nuestros-servicios h2{
+    font-family: "Lora", serif;
+    background-color: #7D0140;
+    text-shadow: 1px 4px 4px rgba(0,0,0,0.69);
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
                                         /*!CONTACTO*/
 .contacto {
     background-image: url("../img/viñedo3.jpg");
