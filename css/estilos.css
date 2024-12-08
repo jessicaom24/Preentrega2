@@ -1,0 +1,791 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.contacto, .servicios, .tienda, .nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contacto, .servicios, .tienda, .nosotros {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+  font-size: 35px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nosotros {
+  background-image: url("../img/uvas3.avif");
+}
+
+.tienda {
+  background-image: url("../img/mejores-vinos.webp");
+}
+
+.servicios {
+  background-image: url("../img/restaurante3.png");
+}
+
+.contacto {
+  background-image: url("../img/viñedo3.jpg");
+}
+
+header .logo {
+  width: 10%;
+}
+header .bg-body-tertiary {
+  background-color: #BA9D5A !important;
+}
+header .btn-boton {
+  background-color: #99782d;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+header .btn-boton:hover {
+  background-color: #7D0140;
+  color: black;
+}
+header .nav-item:hover {
+  background-color: #7D0140;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+header .nav-link:hover {
+  color: white;
+}
+
+.fixed img, .fixed {
+  position: fixed;
+  width: 100px;
+  bottom: 100px;
+  right: 50px;
+}
+
+.ecosistema .ecosistema-contenedor, .hero img, .contacto, .servicios, .tienda, .nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bienvenidos h1 {
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.productos .productos-contenedor, .bienvenidos .biencotenedor2, .bienvenidos .biencotenedor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px;
+}
+
+.contenido p, .bienvenidos .biencotenedor2 p, .bienvenidos .biencotenedor p {
+  text-align: justify;
+  font-size: 20px;
+  color: black;
+  font-family: "Lora", serif;
+}
+
+.contenido h2, .productos h2 {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 1nth 10px, 15px, 20px, 25px, 30px, 35px, 50px, 2;
+  font-size: 30px;
+}
+
+.contacto, .servicios, .tienda, .nosotros {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+  font-size: 35px;
+}
+
+.fixed img, .fixed {
+  position: fixed;
+  width: 100px;
+  bottom: 100px;
+  right: 50px;
+}
+
+.ecosistema .ecosistema-contenedor, .hero img, .contacto, .servicios, .tienda, .nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bienvenidos h1 {
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.productos .productos-contenedor, .bienvenidos .biencotenedor2, .bienvenidos .biencotenedor {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px;
+}
+
+.contenido p, .bienvenidos .biencotenedor2 p, .bienvenidos .biencotenedor p {
+  text-align: justify;
+  font-size: 20px;
+  color: black;
+  font-family: "Lora", serif;
+}
+
+.contenido h2, .productos h2 {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 1nth 10px, 15px, 20px, 25px, 30px, 35px, 50px, 2;
+  font-size: 30px;
+}
+
+.contacto, .servicios, .tienda, .nosotros {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+  font-size: 35px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nosotros {
+  background-image: url("../img/uvas3.avif");
+}
+
+.tienda {
+  background-image: url("../img/mejores-vinos.webp");
+}
+
+.servicios {
+  background-image: url("../img/restaurante3.png");
+}
+
+.contacto {
+  background-image: url("../img/viñedo3.jpg");
+}
+
+.bienvenidos {
+  text-align: center;
+}
+
+.bienvenidos h1 {
+  color: green;
+  font-family: "Great Vibes", cursive;
+}
+
+.bienvenidos .biencotenedor div {
+  width: 50%;
+}
+
+.bienvenidos .biencotenedor img {
+  width: 47%;
+}
+
+.bienvenidos .biencotenedor2 {
+  flex-direction: row-reverse;
+}
+
+.bienvenidos .biencotenedor2 div {
+  width: 50%;
+}
+
+.bienvenidos .biencotenedor2 img {
+  width: 47%;
+}
+
+.productos {
+  height: auto;
+  text-align: center;
+  background-image: url("../img/inicio.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.productos h2 {
+  background-color: #7D0140;
+  text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.69);
+}
+
+.productos .productos-contenedor {
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.productos .productos-contenedor div {
+  background-color: rgba(255, 255, 255, 0.725);
+  height: 100%;
+  width: 40%;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 2px 12px 18px 5px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 2px 12px 18px 5px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 2px 12px 18px 5px rgba(0, 0, 0, 0.69);
+  font-family: "Lora", serif;
+}
+
+.productos .productos-contenedor h3 {
+  margin: 10px;
+  font-size: 25px;
+  color: black;
+}
+
+.productos .productos-contenedor div a {
+  background-color: #BA9D5A;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  margin: 4px;
+  display: inline-block;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.productos .productos-contenedor div a:hover {
+  background-color: #7D0140;
+  color: white;
+  width: 40%;
+}
+
+.productos .productos-contenedor img {
+  width: 100%;
+  height: auto;
+}
+
+/*!Nosotros*/
+.contenido h2 {
+  padding: 10px;
+  background-color: #7D0140;
+  text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.69);
+}
+
+.contenido p {
+  background-color: #BA9D5A;
+  padding: 20px;
+}
+
+.carrusel {
+  padding: 10px;
+}
+
+.ecosistema {
+  background-image: url("../img/inicio.png");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ecosistema .ecosistema-contenedor {
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.ecosistema .ecosistema-contenedor div {
+  background-color: rgba(186, 157, 90, 0.8784313725);
+  height: 100%;
+  width: 25%;
+  text-align: left;
+  margin: 10px;
+  box-shadow: 2px 12px 18px 5px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 2px 12px 18px 5px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 2px 12px 18px 5px rgba(0, 0, 0, 0.69);
+  border: 3px solid #7D0140;
+}
+
+.ecosistema .ecosistema-contenedor h3 {
+  margin: 10px;
+  font-size: 20px;
+  color: color-hoverBtn;
+}
+
+.ecosistema .ecosistema-contenedor p {
+  margin: 10px;
+  font-size: 15px;
+  color: color-hoverBtn;
+  text-align: justify;
+}
+
+.ecosistema .ecosistema-contenedor img {
+  width: 15%;
+  height: auto;
+}
+
+.grid-galeria h2 {
+  font-family: "Lora", serif;
+  background-color: #7D0140;
+  text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.69);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.grid-galeria2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 250px;
+  gap: 15px;
+  padding: 10px;
+  margin: 50px;
+}
+
+.grid-galeria2 div {
+  position: relative;
+  border: 3px solid #7D0140;
+  height: auto;
+}
+
+.grid-galeria2 div h3 {
+  position: absolute;
+  bottom: 0;
+  background-color: #7D0140;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 0rem;
+}
+
+.grid-galeria2 div img {
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+}
+
+.img-1, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9 {
+  grid-row: span 2;
+}
+
+.img-2, .img-10 {
+  grid-column: span 1;
+}
+
+/*!PRODUCTOS*/
+.grid-productos {
+  padding: 10px;
+  background-color: rgb(244, 241, 237);
+  background-size: cover;
+}
+
+.gproductos {
+  grid-auto-rows: 250px;
+  gap: 30px;
+  padding: 10px;
+  margin: 5%;
+  margin-right: 20px !important;
+}
+
+.btn-primary {
+  background-color: #BA9D5A !important;
+  border: none;
+  text-decoration: none;
+  color: darkred;
+  transition: 1s;
+}
+
+.btn-primary:hover {
+  background-color: #7D0140 !important;
+  color: white;
+  width: 50%;
+}
+
+/*!SERVICIOS*/
+.Servcarrusel {
+  padding: 15px;
+  text-align: justify;
+  font-size: 20px;
+  color: black;
+  font-family: "Lora", serif;
+  align-items: center;
+}
+
+.nuestros-servicios h2 {
+  font-family: "Lora", serif;
+  background-color: #7D0140;
+  text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.69);
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+}
+
+/*!CONTACTO*/
+.horario {
+  background-color: whitesmoke;
+}
+
+.horario h2 {
+  font-family: "Lora", serif;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.horario div ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 50px;
+}
+
+.horario div h3 {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.correo input {
+  border: 1px solid #dee2e6;
+}
+
+.btnenviar a {
+  background-color: #BA9D5A;
+  text-decoration: none;
+  color: darkred;
+  padding: 10px;
+  margin: 4px; /*Agregar margen */
+  display: inline-block; /* Para que el margen funcione correctamente*/
+  border-radius: 5px;
+}
+
+.btnenviar a:hover {
+  background-color: #7D0140 !important;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px;
+}
+
+footer {
+  background-color: #86895D;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 5%;
+}
+
+footer div img {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 1192px) {
+  .grid-galeria2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .bienvenidos h1 {
+    font-size: 25px;
+  }
+  .contenido h2 {
+    font-size: 20px;
+  }
+  .contenido p {
+    font-size: 20px;
+  }
+  .ecosistema .ecosistema-contenedor div {
+    width: 30%;
+  }
+  .ecosistema .ecosistema-contenedor h3 {
+    font-size: 15px;
+  }
+  .ecosistema .ecosistema-contenedor p {
+    font-size: 13px;
+  }
+  .grid-galeria2 div h3 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 877px) {
+  .grid-galeria2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .grid-galeria2 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 180px;
+  }
+  .img-1, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9 {
+    grid-row: span 2;
+  }
+  .grid-galeria2 div img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+  .grid-galeria2 div h3 {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(125, 1, 63, 0.7058823529);
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .horario div ul {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 700px) {
+  .ecosistema .ecosistema-contenedor {
+    flex-direction: column;
+  }
+  .ecosistema .ecosistema-contenedor div {
+    width: 50%;
+  }
+  .ecosistema .ecosistema-contenedor h3 {
+    font-size: 20px;
+  }
+  .ecosistema .ecosistema-contenedor p {
+    font-size: 15px;
+  }
+  /*.grid-galeria2 div h3{
+      font-size: 15px;
+      color: #86895D;
+  }*/
+}
+@media screen and (max-width: 660px) {
+  .bienvenidos .biencotenedor {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .bienvenidos .biencotenedor div {
+    width: 100%;
+    padding: 10px;
+  }
+  .bienvenidos .biencotenedor img {
+    width: 70%;
+  }
+  .bienvenidos .biencotenedor2 {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .bienvenidos .biencotenedor2 div {
+    width: 100%;
+    padding: 10px;
+  }
+  .bienvenidos .biencotenedor2 img {
+    width: 70%;
+  }
+  .productos h2 {
+    font-size: 20px;
+  }
+  .nosotros h1 {
+    font-size: 28px;
+  }
+  .grid-galeria h2 {
+    font-size: 20px;
+  }
+  .contenido h2 {
+    font-size: 15px;
+  }
+  .contenido p {
+    font-size: 15px;
+  }
+  .ecosistema .ecosistema-contenedor div {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 600px) {
+  header nav ul li {
+    display: inline-block;
+    margin: 10px 5px 10px 5px;
+    font-size: 15px;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: #7D0140;
+  }
+  .bienvenidos h1 {
+    font-size: 18px;
+    color: #7D0140;
+  }
+  .bienvenidos .biencotenedor p {
+    text-align: justify;
+    font-size: 15px;
+    color: black;
+  }
+  .bienvenidos .biencotenedor2 p {
+    text-align: justify;
+    font-size: 15px;
+    color: black;
+  }
+  .grid-galeria2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 180px;
+  }
+  .img-1, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9 {
+    grid-row: span 1;
+  }
+  .img-2, .img-10 {
+    grid-row: span 1;
+  }
+  .grid-galeria2 div {
+    height: 100%;
+  }
+  .grid-galeria2 div img {
+    object-fit: contain;
+    width: 100%;
+  }
+  .grid-galeria2 div h3 {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 564px) {
+  .ecosistema .ecosistema-contenedor {
+    padding: 20px;
+  }
+  .ecosistema .ecosistema-contenedor div {
+    width: 90%;
+  }
+  .ecosistema .ecosistema-contenedor img {
+    width: 10%;
+  }
+  .grid-galeria2 div h3 {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .productos .productos-contenedor {
+    flex-direction: column;
+  }
+  .productos .productos-contenedor div {
+    width: 100%;
+  }
+  .productos .productos-contenedor h3 {
+    font-size: 25px;
+    color: black;
+  }
+  .nosotros {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 398px) {
+  .ecosistema .ecosistema-contenedor {
+    padding: 10px;
+  }
+  .ecosistema .ecosistema-contenedor h3 {
+    font-size: 15px;
+  }
+  .ecosistema .ecosistema-contenedor p {
+    font-size: 10px;
+  }
+  .nosotros {
+    width: 100%;
+    height: 300px;
+  }
+  .grid-galeria2 div h3 {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  header {
+    flex-direction: column;
+  }
+  header img {
+    width: 10%;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin: 10px 5px 10px 5px;
+    font-size: 10px;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: #7D0140;
+  }
+  .fixed img {
+    width: 10%;
+    bottom: 90px;
+    right: 40px;
+  }
+  .bienvenidos h1 {
+    font-size: 10px;
+    color: #7D0140;
+  }
+  .bienvenidos .biencotenedor p {
+    text-align: justify;
+    font-size: 10px;
+    color: black;
+  }
+  .bienvenidos .biencotenedor2 p {
+    text-align: justify;
+    font-size: 10px;
+    color: black;
+  }
+  .productos h2 {
+    font-size: 15px;
+  }
+  .productos .productos-contenedor h3 {
+    font-size: 20px;
+    color: black;
+  }
+  .productos .productos-contenedor div a {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .grid-galeria h2 {
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

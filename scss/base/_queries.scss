@@ -1,0 +1,357 @@
+@media screen and (max-width:1192px){
+    .grid-galeria2{
+        
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
+
+@media screen and  (max-width:1000px) {
+
+    .bienvenidos h1{
+        font-size: 25px;
+    }
+    
+    .contenido h2{
+        font-size: 20px;
+    }
+    
+    .contenido p{
+        font-size: 20px;
+    }
+    
+    .ecosistema .ecosistema-contenedor div{
+        width: 30%;
+    }
+    
+    .ecosistema .ecosistema-contenedor h3{
+        font-size: 15px;
+    }
+    
+    .ecosistema .ecosistema-contenedor p{
+        font-size: 13px;
+    }
+
+    .grid-galeria2 div h3{
+        font-size: 15px;
+
+    }
+}
+
+@media screen and (max-width:877px){
+    .grid-galeria2{
+
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-rows: 200px;
+
+    }
+}
+
+@media screen and (max-width:770px){
+    .grid-galeria2{
+
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 180px;
+
+    }
+
+    .img-1, .img-3, .img-4, .img-5,.img-6,.img-7,.img-8, .img-9{
+        grid-row: span 2;
+    }
+
+    .grid-galeria2 div img{
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+
+    .grid-galeria2 div h3{
+        position: absolute;
+        bottom: 0;
+        background-color:#7d013fb4;
+        text-align: center;
+        width: 100%;
+        color:white;
+        font-size: 20px;
+
+    }
+}
+@media screen and (max-width:750px){
+
+    .horario div ul{
+        flex-direction: column;
+    }
+}
+@media screen and  (max-width:700px) {
+
+
+.ecosistema .ecosistema-contenedor{
+        flex-direction: column;
+}
+    
+.ecosistema .ecosistema-contenedor div{
+        width: 50%;
+}
+    
+.ecosistema .ecosistema-contenedor h3{
+        font-size: 20px;
+}
+    
+.ecosistema .ecosistema-contenedor p{
+        font-size: 15px;
+}
+
+/*.grid-galeria2 div h3{
+    font-size: 15px;
+    color: #86895D;
+}*/
+
+}
+
+@media screen and  (max-width:660px) {
+    .bienvenidos .biencotenedor{
+        flex-direction: column;
+        padding:10px;
+    }
+
+    .bienvenidos .biencotenedor div{
+        width: 100%;
+        padding: 10px;
+    }   
+    
+    .bienvenidos .biencotenedor img{
+        width: 70%;
+    }
+
+    .bienvenidos .biencotenedor2{
+        flex-direction: column;
+        padding:10px;
+        
+    }
+
+    .bienvenidos .biencotenedor2 div{
+        width: 100%;
+        padding: 10px;
+    }   
+    
+    .bienvenidos .biencotenedor2 img{
+        width: 70%;
+    }
+
+    .productos h2{
+        font-size: 20px;
+    }
+    .nosotros h1{
+        font-size: 28px;
+    }
+    .grid-galeria h2{
+        font-size: 20px;
+    }
+
+    .contenido h2{
+        font-size: 15px;
+    }
+    
+    .contenido p{
+        font-size: 15px;
+    }    
+
+    .ecosistema .ecosistema-contenedor div{
+        width: 60%;
+    }
+
+}
+
+@media screen and  (max-width:600px) {
+    header nav ul li{
+        display: inline-block;
+        margin: 10px 5px 10px 5px;
+        font-size: 15px;
+    }
+    
+    
+    header nav ul li a{
+        text-decoration: none;
+        color:#7D0140;
+    }
+    .bienvenidos h1{
+        font-size: 18px;
+        color:#7D0140;
+    }
+
+    .bienvenidos .biencotenedor p{
+        text-align:justify;
+        font-size: 15px;
+        color: black;
+    }
+    
+    .bienvenidos .biencotenedor2 p{
+        text-align:justify;
+        font-size: 15px;
+        color: black;
+    }
+
+
+    .grid-galeria2{
+
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 180px;
+
+}
+
+.img-1, .img-3, .img-4, .img-5,.img-6,.img-7,.img-8, .img-9{
+    grid-row: span 1;
+}
+
+.img-2, .img-10{
+    grid-row: span 1;
+}
+
+.grid-galeria2 div{
+    height: 100%;
+
+}
+
+.grid-galeria2 div img{
+    object-fit: contain;
+    width: 100%;
+    
+}
+
+.grid-galeria2 div h3{
+
+
+    width: 100%;
+
+    font-size: 20px;
+
+}
+
+}
+
+@media screen and (max-width:564px) {
+
+.ecosistema .ecosistema-contenedor{
+    padding: 20px;
+    }
+
+.ecosistema .ecosistema-contenedor div{
+    width: 90%;
+}
+
+.ecosistema .ecosistema-contenedor img {
+    width: 10%;
+}
+
+.grid-galeria2 div h3{
+    font-size: 10px;
+
+}
+
+}
+
+@media screen and (max-width:470px) {
+    .productos .productos-contenedor{
+        flex-direction: column;
+    }
+    .productos .productos-contenedor div{
+        width: 100%;
+        
+    }
+
+    .productos .productos-contenedor h3{
+        font-size: 25px;
+        color: black;
+
+    }
+
+    .nosotros{
+        width: 100%;
+        height: 400px;
+    } 
+
+
+}
+
+@media screen and (max-width:398px) {
+
+.ecosistema .ecosistema-contenedor{
+    padding: 10px;
+}
+
+.ecosistema .ecosistema-contenedor h3{
+    font-size: 15px;
+}
+
+.ecosistema .ecosistema-contenedor p{
+    font-size: 10px;
+}
+
+.nosotros{
+    width: 100%;
+    height: 300px;
+}  
+.grid-galeria2 div h3{
+    font-size: 10px;
+}
+}
+
+@media screen and  (max-width:350px) {
+
+    header{
+        flex-direction: column;
+        
+    }
+    header img{
+        width: 10%;
+    }
+
+    header nav ul li{
+        display: inline-block;
+        margin: 10px 5px 10px 5px;
+        font-size: 10px;
+    }
+    
+    
+    header nav ul li a{
+        text-decoration: none;
+        color:#7D0140;
+    }
+
+    .fixed img{
+        width: 10%;
+        bottom: 90px;
+        right: 40px;
+    }
+    .bienvenidos h1{
+        font-size: 10px;
+        color:#7D0140;
+    }
+
+    .bienvenidos .biencotenedor p{
+        text-align:justify;
+        font-size: 10px;
+        color: black;
+    }
+    .bienvenidos .biencotenedor2 p{
+        text-align:justify;
+        font-size: 10px;
+        color: black;
+    }
+
+    .productos h2{
+        font-size: 15px;
+    }
+    .productos .productos-contenedor h3{
+        font-size: 20px;
+        color: black;
+    }
+
+    .productos .productos-contenedor div a {
+        font-size: 10px;
+        padding: 5px;
+}
+.grid-galeria h2{
+        font-size: 10px;
+}
+}

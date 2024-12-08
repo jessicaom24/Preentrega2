@@ -1,0 +1,16 @@
+@import "../base/funcionalidades";
+
+footer{
+    @extend %contenedor;
+    background-color:$color-ft;
+    padding: 20px;
+    justify-content:space-between;
+}
+footer img{
+    width: 5%;
+}
+footer div img{
+    width: 30px;
+    height: 30px;
+    
+}

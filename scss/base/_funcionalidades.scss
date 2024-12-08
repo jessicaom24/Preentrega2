@@ -1,0 +1,66 @@
+$color-buscar:#99782d;
+$color-barra:#BA9D5A;
+$color-barra2:#ba9d5ae0;
+$color-barraBTN:#7D0140;
+$color-letraBTN:white;
+$color-hoverBtn:black;
+$color-ft:#86895D;
+$color-trans:rgba(255, 255, 255, 0.725);
+$color-trans2:rgba(0,0,0,0.69);
+$Ver:green;
+
+$caja: 10px,15px,20px,25px,30px,35px,50px;
+
+%whats{
+    position:fixed;
+    width: 100px;
+    bottom: 100px;
+    right: 50px;
+}
+
+%centerimg{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+    
+%texto2{
+    font-size: nth($caja,6);
+    align-items: center;
+    justify-content: center;
+}
+
+%contenedor{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding:nth($caja,4) ;
+}
+
+%parrafo{
+    text-align:justify;
+    font-size: nth($caja,3);
+    color:$color-hoverBtn;
+    font-family: "Lora", serif;
+}
+
+%text3h2{
+    font-family: "Lora", serif;
+    font-size: nth($caja,3);
+    color: $color-letraBTN;
+    text-align: center;
+    padding: 1nth($caja,2);
+    font-size: nth($caja,5);
+}
+
+%imgprincipal{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color:$color-letraBTN;
+    flex-direction: column;
+    font-size: nth($caja,6);
+}

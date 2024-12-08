@@ -1,0 +1,328 @@
+@import "../base/funcionalidades";
+@import "../base/generales";
+
+    
+.fixed{
+    @extend %whats;
+}
+.fixed img{
+    @extend %whats;
+}
+.hero img{
+    @extend %centerimg;
+}
+
+.bienvenidos{
+    text-align: center;
+}
+
+.bienvenidos h1{
+    @extend %texto2;
+    color:$Ver;
+    font-family: "Great Vibes", cursive;
+    
+}
+
+.bienvenidos .biencotenedor{
+    @extend %contenedor;
+}
+
+.bienvenidos .biencotenedor div{
+    width: 50%;
+}
+
+.bienvenidos .biencotenedor p{
+    @extend %parrafo;
+}
+
+.bienvenidos .biencotenedor img{
+    width: 47%;
+}
+
+.bienvenidos .biencotenedor2{
+    @extend %contenedor;
+    flex-direction: row-reverse;  
+}
+
+.bienvenidos .biencotenedor2 div{
+    width: 50%;
+}
+
+.bienvenidos .biencotenedor2 p{
+    @extend %parrafo;
+}
+
+.bienvenidos .biencotenedor2 img{
+    width: 47%;
+}
+
+.productos{
+    height: auto;
+    text-align: center;
+    background-image: url("../img/inicio.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.productos h2{
+    @extend %text3h2;
+    background-color:$color-barraBTN;
+    text-shadow: 1px 4px 4px rgba(0,0,0,0.69);
+
+}
+
+.productos .productos-contenedor{
+    @extend %contenedor;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: nth($caja,7);
+}
+
+.productos .productos-contenedor div{
+    background-color: $color-trans;
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 2px 12px 18px 5px $color-trans2;
+    -webkit-box-shadow: 2px 12px 18px 5px $color-trans2;
+    -moz-box-shadow: 2px 12px 18px 5px $color-trans2;
+    font-family: "Lora", serif;
+}
+
+.productos .productos-contenedor h3{
+    margin: nth($caja,1);
+    font-size: nth($caja,4);
+    color: $color-hoverBtn;
+}
+
+.productos .productos-contenedor div a {
+        background-color:$color-barra;    
+        text-decoration: none;
+        color: $color-hoverBtn;
+        padding: nth($caja,1);
+        margin: 4px;  
+        display: inline-block; 
+        border-radius: 5px;
+        transition: 1s;
+}
+
+.productos .productos-contenedor div a:hover{
+    background-color: $color-barraBTN;
+    color:$color-letraBTN;
+    width: 40%;
+}
+
+.productos .productos-contenedor img {
+    width: 100%;
+    height: auto; 
+}
+
+/*!Nosotros*/
+.contenido h2{
+    @extend %text3h2;
+    padding: 10px;
+    background-color:$color-barraBTN;
+    text-shadow: 1px 4px 4px rgba(0,0,0,0.69);
+}
+
+.contenido p{
+    @extend %parrafo;
+    background-color:$color-barra;
+    padding: 20px;
+}    
+.carrusel{
+
+    padding: 10px;
+}
+.ecosistema{
+    background-image: url("../img/inicio.png");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ecosistema .ecosistema-contenedor{
+    @extend %centerimg;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding:nth($caja,7);
+
+}
+
+.ecosistema .ecosistema-contenedor div{
+    background-color:$color-barra2;
+    height: 100%;
+    width: 25%;
+    text-align:left;
+    margin: 10px;
+    box-shadow: 2px 12px 18px 5px $color-trans2;
+    -webkit-box-shadow: 2px 12px 18px 5px $color-trans2;
+    -moz-box-shadow: 2px 12px 18px 5px $color-trans2;
+    border:3px solid $color-barraBTN;
+    
+}
+
+.ecosistema .ecosistema-contenedor h3{
+    margin: nth($caja,1);
+    font-size:nth($caja,3);
+    color: color-hoverBtn
+}
+
+.ecosistema .ecosistema-contenedor p{
+    margin: nth($caja,1);
+    font-size: 15px;
+    color: color-hoverBtn;
+    text-align: justify;
+}
+
+.ecosistema .ecosistema-contenedor img {
+    width: 15%;
+    height: auto;
+}
+
+.grid-galeria h2{
+    font-family: "Lora", serif;
+    background-color: $color-barraBTN;
+    text-shadow: 1px 4px 4px $color-trans2;
+    color:$color-letraBTN;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+.grid-galeria2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    gap: 15px;
+    padding: nth($caja,1);
+    margin: 50px;
+}
+
+.grid-galeria2 div{
+    position: relative;
+    border: 3px solid $color-barraBTN;
+    height: auto;
+}
+
+.grid-galeria2 div h3{
+    position: absolute;
+    bottom: 0;
+    background-color:$color-barraBTN;
+    text-align: center;
+    width: 100%;
+    color:white;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 0rem;
+    
+}
+
+.grid-galeria2 div img{
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    
+}
+
+.img-1, .img-3, .img-4, .img-5,.img-6,.img-7,.img-8, .img-9{
+    grid-row: span 2;
+}
+
+.img-2, .img-10{
+    grid-column: span 1;
+}
+
+/*!PRODUCTOS*/
+.grid-productos{
+    padding: 10px;
+    background-color:rgb(244, 241, 237);
+    background-size: cover;
+}
+.gproductos{
+    grid-auto-rows: 250px;
+    gap: 30px;
+    padding: 10px;
+    margin: 5%;
+    margin-right: 20px !important;
+}
+
+.btn-primary {
+    background-color:$color-barra !important;  
+    border: none;
+    text-decoration: none;
+    color: darkred;
+    transition: 1s;
+}
+
+.btn-primary:hover{
+    background-color: $color-barraBTN !important;
+    color:$color-letraBTN;
+    width: 50%;
+}
+                                        /*!SERVICIOS*/
+
+.Servcarrusel{
+    padding: 15px;
+    text-align:justify;
+    font-size: 20px;
+    color: black;
+    font-family: "Lora", serif;
+    align-items: center;
+}
+
+.nuestros-servicios h2{
+font-family: "Lora", serif;
+    background-color: $color-barraBTN;
+    text-shadow: 1px 4px 4px $color-trans2;
+    font-size: 20px;
+    color: $color-letraBTN;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+                                        /*!CONTACTO*/
+
+.horario{
+    background-color: whitesmoke;
+}
+.horario h2{
+    font-family: "Lora", serif;
+    background-color:$color-letraBTN;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.horario div ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+    
+}
+.horario div h3{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.correo input {
+    border: 1px solid #dee2e6; 
+
+}
+.btnenviar a{
+    background-color:$color-barra;    
+    text-decoration: none;
+    color: darkred;
+    padding: 10px;
+    margin: 4px;  /*Agregar margen */
+    display: inline-block; /* Para que el margen funcione correctamente*/ 
+    border-radius: 5px;
+}
+
+.btnenviar a:hover{
+    background-color: $color-barraBTN !important;
+    color:$color-letraBTN;
+}
