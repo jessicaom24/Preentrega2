@@ -120,6 +120,9 @@
 }
 
 /*!Nosotros*/
+.contenido{
+    background-color: $color-barra;
+}
 .contenido h2{
     @extend %text3h2;
     padding: 10px;
@@ -173,7 +176,7 @@
 
 .ecosistema .ecosistema-contenedor p{
     margin: nth($caja,1);
-    font-size: 15px;
+    font-size: 14px;
     color: color-hoverBtn;
     text-align: justify;
 }

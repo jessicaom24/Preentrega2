@@ -294,6 +294,10 @@ header .nav-link:hover {
 }
 
 /*!Nosotros*/
+.contenido {
+  background-color: #BA9D5A;
+}
+
 .contenido h2 {
   padding: 10px;
   background-color: #7D0140;
@@ -343,7 +347,7 @@ header .nav-link:hover {
 
 .ecosistema .ecosistema-contenedor p {
   margin: 10px;
-  font-size: 15px;
+  font-size: 14px;
   color: color-hoverBtn;
   text-align: justify;
 }
