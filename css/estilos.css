@@ -431,7 +431,7 @@ header .nav-link:hover {
   grid-auto-rows: 250px;
   gap: 30px;
   padding: 10px;
-  margin: 1% 5%;
+  margin: auto;
   margin-right: 20px !important;
 }
 
